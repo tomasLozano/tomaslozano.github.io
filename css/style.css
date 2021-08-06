@@ -1,0 +1,11 @@
+@import "../constants/style.css";
+
+.img-profile {
+    width: 200px;
+    height: 250px;
+}
+
+.card {
+    color: #000000;
+}
+
