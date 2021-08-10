@@ -1,11 +1,12 @@
 @import "../constants/style.css";
 
-.img-profile {
-    width: 200px;
-    height: 250px;
-}
-
 .card {
     color: #000000;
+    margin-bottom: 3vw;
+    padding: 3em;
+}
+
+h3 {
+    margin-bottom: 5vw;
 }
 
