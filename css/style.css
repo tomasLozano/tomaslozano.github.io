@@ -1,12 +1,50 @@
 @import "../constants/style.css";
 
+.header-icons {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.socialMedia-icons {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+    line-height: 30px;
+    border: 1px solid;
+    border-radius: 50px;
+    
+}
+
+.socialMedia-icons:hover {
+    color: #ffffff;
+}
+
 .card {
     color: #000000;
-    margin-bottom: 3vw;
+    margin-top: 3vw;
     padding: 3em;
 }
 
-h3 {
-    margin-bottom: 5vw;
+.card > h3 {
+    margin-bottom: 2vw;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.education-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.degree {
+    font-weight: bold;
 }
 
