@@ -14,6 +14,11 @@
     color: #ffffff;
     /* color: #000000; */
     text-align: center;
+    font-size: 2rem;
+}
+
+.header-icons > h1 {
+    font-size: 2em;
 }
 
 .socialMedia-icons {
@@ -60,7 +65,7 @@
     width: 100%;
 }
 
-.project-icon, .project-link {
+.project-link {
     color: #000000;
     text-decoration: none;
 }
@@ -97,5 +102,47 @@
 .education-list {
     padding: 0;
     list-style-type: none;
+}
+
+.contact {
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+}
+
+.inTouch {
+    text-align: center;
+}
+
+.contact-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    /* color: var(--page-color); */
+    color: rgb(48, 97, 46);
+}
+
+.inTouch-icon {
+    font-size: 2rem;
+}
+
+.foot {
+    text-align: center;
+    padding-bottom: 7rem;
+    padding-top: 4rem;
+}
+
+.foot > p {
+    margin-bottom: 0px;
+}
+
+.foot-name {
+    color: #000000;
+    text-decoration: none;
+}
+
+.foot-name:hover {
+    color: #000000;
 }
 
