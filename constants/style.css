@@ -1,0 +1,23 @@
+@font-face {
+    font-family: pageFont;
+    src: url('../fonts/STIXTwoText-Medium.ttf'); 
+}
+
+:root{
+--font-color: #000000;
+--background-color: #ffffff;
+--page-color: rgb(228, 239, 201);
+}
+
+body {
+    background: var(--background-color);
+    color: var(--font-color);
+    font-family: pageFont, sans-serif;
+    font-size: 3ex;
+    overflow-x: hidden;
+}
+
+footer {
+    background: var(--page-color);
+}
+
